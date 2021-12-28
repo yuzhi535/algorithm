@@ -36,6 +36,6 @@ def LCS(s1: str, s2: str):
     return dp[sz1][sz2]
 
 
-s2 = '12354'
+s2 = '1235asdf4'
 s1 = 'as12b35452234'
 print(LCS(s1, s2))
